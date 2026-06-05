@@ -1,0 +1,38 @@
+{
+  "item.mace.smash_ground": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:item/mace/ground",
+        "stream": false
+      }
+    ]
+  },
+  "item.mace.smash_ground_heavy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:item/mace/heavyground",
+        "stream": false
+      }
+    ]
+  },
+  "item.mace.smash_air": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:item/mace/air",
+        "stream": false
+      }
+    ]
+  },
+  "item.honey_bottle.drink": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:item/honey_bottle/drinkbaltika",
+        "stream": false
+      }
+    ]
+  }
+}

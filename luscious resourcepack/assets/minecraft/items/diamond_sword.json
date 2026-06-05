@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Tailless",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/Tailless" }
+      },
+      {
+        "when": "Da Capo",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/dacapo" }
+      },
+      {
+        "when": "World Ender",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/worldender" }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_sword"
+    } 
+  }
+}

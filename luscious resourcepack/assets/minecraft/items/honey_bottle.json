@@ -1,0 +1,17 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "baltika9",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/baltika9" }
+	  }
+    ],
+    "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/honey_bottle"
+    }
+  }
+}
