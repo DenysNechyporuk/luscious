@@ -27,6 +27,10 @@
       {
         "when": "White Night Nova",
         "model": { "type": "minecraft:model", "model": "minecraft:item/white_night_nova" }
+      },
+      {
+        "when": "Dihui Star's Blade",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/dihuistarblade" }
       }
     ],
     "fallback": {
