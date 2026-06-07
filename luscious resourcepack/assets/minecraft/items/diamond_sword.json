@@ -15,6 +15,18 @@
       {
         "when": "World Ender",
         "model": { "type": "minecraft:model", "model": "minecraft:item/worldender" }
+      },
+      {
+        "when": "Smile",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/smile" }
+      },
+      {
+        "when": "Tiantui Star's Blade",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/tiantuistarsblade" }
+      },
+      {
+        "when": "White Night Nova",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/white_night_nova" }
       }
     ],
     "fallback": {

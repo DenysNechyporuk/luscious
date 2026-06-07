@@ -5,13 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "Smile",
-        "model": { "type": "minecraft:model", "model": "minecraft:item/smile" }
-      }
+        "when": "Lunar Staff",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/lunarstaff" }
+	  }
     ],
     "fallback": {
           "type": "minecraft:model",
-          "model": "minecraft:item/diamond_axe"
+          "model": "minecraft:item/trident"
     }
   }
 }
