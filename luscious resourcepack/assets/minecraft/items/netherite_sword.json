@@ -31,6 +31,14 @@
       {
         "when": "Dihui Star's Blade",
         "model": { "type": "minecraft:model", "model": "minecraft:item/dihuistarblade" }
+      },
+      {
+        "when": "Tianjiu Star's Blade",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/tianjiustarblade" }
+      },
+      {
+        "when": "Scorching-Hot Gladius",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/scorchinggladius" }
       }
     ],
     "fallback": {
