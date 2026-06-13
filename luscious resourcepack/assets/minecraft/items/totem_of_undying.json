@@ -7,6 +7,10 @@
       {
         "when": "Book of Vengeance LH",
         "model": { "type": "minecraft:model", "model": "minecraft:item/bookofvengeancelefthand" }
+	  },
+    {
+        "when": "Book of V",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/bookofv" }
 	  }
     ],
     "fallback": {

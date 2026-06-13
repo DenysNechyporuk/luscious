@@ -7,6 +7,10 @@
       {
         "when": "Smile",
         "model": { "type": "minecraft:model", "model": "minecraft:item/smile" }
+      },
+      {
+        "when": "Infernal Executioner",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/infernalexecutioner" }
       }
     ],
     "fallback": {

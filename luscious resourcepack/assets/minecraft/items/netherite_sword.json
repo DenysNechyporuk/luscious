@@ -39,6 +39,10 @@
       {
         "when": "Scorching-Hot Gladius",
         "model": { "type": "minecraft:model", "model": "minecraft:item/scorchinggladius" }
+      },
+      {
+        "when": "Infernal Executioner",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/infernalexecutioner" }
       }
     ],
     "fallback": {
