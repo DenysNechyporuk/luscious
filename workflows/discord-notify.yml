@@ -1,0 +1,48 @@
+name: Discord Notify
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  notify:
+    name: Notify Discord
+    runs-on: ubuntu-latest
+
+    env:
+      ROLE_ID: "1516859215870951424"
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+
+    steps:
+      - name: Send Discord notification
+        if: ${{ env.DISCORD_WEBHOOK_URL != '' }}
+        shell: bash
+        run: |
+          python3 - <<'PY' > payload.json
+          import json
+          import os
+
+          role_id = os.environ["ROLE_ID"]
+          commit_message = os.environ["COMMIT_MESSAGE"]
+
+          payload = {
+              "content": f"<@&{role_id}>\n\n\U0001F680 New version of texturepack!\n\n\U0001F4DD Commit: \"{commit_message}\"",
+              "allowed_mentions": {
+                  "parse": [],
+                  "roles": [role_id],
+              },
+          }
+
+          print(json.dumps(payload, ensure_ascii=False))
+          PY
+
+          curl \
+            --fail \
+            --silent \
+            --show-error \
+            --request POST \
+            --header "Content-Type: application/json" \
+            --data @payload.json \
+            "$DISCORD_WEBHOOK_URL"
