@@ -11,6 +11,10 @@
     {
         "when": "Book of V",
         "model": { "type": "minecraft:model", "model": "minecraft:item/bookofv" }
+	  },
+    {
+        "when": "Egor's Sniffers",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/egorsniffers" }
 	  }
     ],
     "fallback": {
