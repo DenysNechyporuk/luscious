@@ -43,6 +43,10 @@
       {
         "when": "Infernal Executioner",
         "model": { "type": "minecraft:model", "model": "minecraft:item/infernalexecutioner" }
+      },
+      {
+        "when": "Mimicry",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/mimicry_lor" }
       }
     ],
     "fallback": {
