@@ -7,8 +7,13 @@
       {
         "when": "Smile",
         "model": { "type": "minecraft:model", "model": "minecraft:item/smile" }
+      },
+      {
+        "when": "Executioner's Hammer",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/executionershammer" }
       }
     ],
+    
     "fallback": {
           "type": "minecraft:model",
           "model": "minecraft:item/mace"
