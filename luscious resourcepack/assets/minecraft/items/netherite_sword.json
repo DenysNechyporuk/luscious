@@ -47,6 +47,10 @@
       {
         "when": "Mimicry",
         "model": { "type": "minecraft:model", "model": "minecraft:item/mimicry_lor" }
+      },
+      {
+        "when": "Crimson Moon's Semblance",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/crimson_moons_semblance" }
       }
     ],
     "fallback": {

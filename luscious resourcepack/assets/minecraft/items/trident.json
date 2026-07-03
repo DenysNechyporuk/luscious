@@ -11,6 +11,10 @@
     {
         "when": "Gabriel's Judgment",
         "model": { "type": "minecraft:model", "model": "minecraft:item/gabriels_judgment" }
+      },
+      {
+        "when": "Crimson Moon's Semblance",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/crimson_moons_semblance" }
       }
     ],
     "fallback": {
