@@ -6,7 +6,7 @@
     "cases": [
       {
         "when": "Tailless",
-        "model": { "type": "minecraft:model", "model": "minecraft:item/Tailless" }
+        "model": { "type": "minecraft:model", "model": "minecraft:item/tailless" }
       },
       {
         "when": "Da Capo",
@@ -51,6 +51,10 @@
       {
         "when": "Crimson Moon's Semblance",
         "model": { "type": "minecraft:model", "model": "minecraft:item/crimson_moons_semblance" }
+      },
+      {
+        "when": "Sezionatura di Elefante",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/thumbrapier" }
       }
     ],
     "fallback": {
