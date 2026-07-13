@@ -15,6 +15,10 @@
       {
         "when": "Crimson Moon's Semblance",
         "model": { "type": "minecraft:model", "model": "minecraft:item/crimson_moons_semblance" }
+      },
+      {
+        "when": "AEDD",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/aeddweapon" }
       }
     ],
     "fallback": {
