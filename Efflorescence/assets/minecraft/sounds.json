@@ -34,5 +34,14 @@
         "stream": false
       }
     ]
+  },
+  "item.crossbow.shoot": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:item/crossbow/solemnlament",
+        "stream": false
+      }
+    ]
   }
 }
