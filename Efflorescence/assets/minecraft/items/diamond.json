@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Butt plug",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/buttplug" }
+	  },{
+        "when": "kys",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/kys" }
+	  }
+
+    ],
+    "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/diamond"
+    }
+  }
+}
