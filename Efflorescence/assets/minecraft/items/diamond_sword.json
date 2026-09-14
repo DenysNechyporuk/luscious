@@ -55,6 +55,14 @@
       {
         "when": "Sezionatura di Elefante",
         "model": { "type": "minecraft:model", "model": "minecraft:item/thumbrapier" }
+      },
+      {
+        "when": "Elucidator",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/elucidator" }
+      },
+      {
+        "when": "Syndicar",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/syndicar" }
       }
     ],
     "fallback": {
