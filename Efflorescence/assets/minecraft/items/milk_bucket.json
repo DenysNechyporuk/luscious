@@ -1,0 +1,17 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Coffee Cup",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/lobcup" }
+	  }
+    ],
+    "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/milk_bucket"
+    }
+  }
+}
