@@ -19,6 +19,10 @@
     {
         "when": "Mundo Stonks",
         "model": { "type": "minecraft:model", "model": "minecraft:item/suitcase" }
+	  },
+    {
+        "when": "Arayashiki",
+        "model": { "type": "minecraft:model", "model": "minecraft:item/waistarayashiki" }
 	  }
     ],
     "fallback": {
